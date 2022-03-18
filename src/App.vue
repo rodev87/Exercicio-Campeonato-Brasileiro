@@ -38,21 +38,25 @@
       </v-list>
     </v-navigation-drawer>
     </div>
+
     <v-main>
-      <v-container>
-        Teste
-      </v-container>
+      <Inicio/>
     </v-main>
   </v-app>
 </template>
 
 <script>
+import Inicio from './components/Inicio'
+
 export default {
   name: 'App',
   data: () => ({
       drawer: false,
       group: null,
     }),
+    components: {
+      Inicio
+    }
 }
 </script>
 
