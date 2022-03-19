@@ -7,7 +7,7 @@
           <v-toolbar-title>Campeonato Brasileiro ⚽</v-toolbar-title>
 
       </v-app-bar>
-          <v-navigation-drawer
+      <v-navigation-drawer
       v-model="drawer"
       absolute
       temporary
@@ -30,7 +30,6 @@
             </v-list-item>
           </router-link>
 
-
           <router-link to="/classificacao">
             <v-list-item>
               <v-list-item-icon>
@@ -39,6 +38,7 @@
               <v-list-item-title>Classificação</v-list-item-title>
             </v-list-item>
           </router-link>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
