@@ -1,4 +1,4 @@
-# treino
+# Exercício - Tabela do Campeonato Brasileiro
 
 ## Project setup
 ```
